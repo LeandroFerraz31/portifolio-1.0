@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+
+#nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding: 25px;
+    background-size: cover;
+    background-position:flex ;
+    background-color: #191919;
+    text-decoration: none;
+
+}
+.menu a{
+    color: white;
+    margin-left: auto;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: #f9004d;
+    transition: 0.5s;
+}
+.portifolio {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 500;
+
+}
+
+.portifolio span {
+    color: #f9004d;
+}
+
+.nome {
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    color: #ffffff;
+    font-size: 35px;
+}
+
+
+.nome span {
+    color: #f9004d;
+}
+
+li {
+    color: white;
+    list-style: none;
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 60px 15%;
+    background-size: cover;
+    background-position:flex ;
+    background-color: #191919;
+}
+
+section img{
+    height: 300px;
+    border: 2px solid #f9004d ;
+    border-radius: 100px/100px;
+    margin-right: 30px;
+}
+section img:hover{
+    transform: scale(1.);
+    transition: 0.5s;
+}
+section div h2 {
+    color: white;
+    font-size: 75px;
+}
+
+section div p {
+    color: #e2b9c6;
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    
+}
+
+section div button  {
+    
+    background: #f9004d;
+    height: 50px;
+    width: 180px;
+    font-size: 18px;
+    border: none;
+    border-radius: 26px;
+    cursor: pointer;
+    
+}
+
+section div button:hover {
+    background-color: black;
+    border: 3px solid #f9004d;
+    transition: 0.5s;
+}
+
+section button .whats{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    /* Estilos para tablets e dispositivos com largura de até 768px */
+    
+
+    .nome {
+        left: 0%;
+        font-size: 30px;
+    }
+
+    .portifolio {
+        font-size: 40px;
+        
+        
+    }
+    .menu{
+    
+        margin-left: 199px;
+    }
+    
+    li {
+        font-size: 18px;
+        margin: 5px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    section {
+        padding: 40px 10%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section img {
+        height: auto;
+        width: 100%;
+        max-width: 300px;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    section div {
+        text-align: center;
+    }
+
+    section div h2 {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    section div p {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    section div button {
+        height: 40px;
+        width: 150px;
+        font-size: 16px;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    /* Estilos para dispositivos móveis com largura de até 480px */
+
+
+    .nome {
+        left: 2%;
+        font-size: 25px;
+    }
+
+    .portifolio {
+        font-size: 30px;
+        
+        
+    }
+    .menu{
+    
+        margin-left: 150px;
+    }
+    
+    li {
+        font-size: 18px;
+        margin: 5px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    section {
+        padding: 30px 5%;
+    }
+
+    section img {
+        height: auto;
+        width: 100%;
+        max-width: 250px;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    section div h2 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    section div p {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    section div button {
+        height: 35px;
+        width: 130px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    /* Estilos para dispositivos móveis com largura de até 480px */
+
+
+    .nome {
+        left: 2%;
+        font-size: 25px;
+    }
+
+    .portifolio {
+        font-size: 30px;
+        margin-right: auto;
+        
+        
+    }
+    .menu{
+    
+        margin-left: 100px;
+    }
+    
+    li {
+        font-size: 18px;
+        margin: 5px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    section {
+        padding: 30px 5%;
+    }
+
+    section img {
+        height: auto;
+        width: 100%;
+        max-width: 250px;
+        margin-right: 0;
+        margin-bottom: 30px;
+        justify-content:center ;
+    }
+    
+
+    section div h2 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    section div p {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    section div button {
+        height: 35px;
+        width: 130px;
+        font-size: 14px;
+    }
+}
+
+
+@media only screen and (max-width: 320px ) {
+    /* Estilos para dispositivos móveis com largura de até 480px */
+
+
+    .nome {
+        left: 2%;
+        font-size: 20px;
+    }
+
+    .portifolio {
+        font-size: 30px;
+        margin-right: auto;
+        
+        
+    }
+    .menu{
+    display: block;
+        margin-left: 60px;
+    }
+    
+    li {
+        font-size: 18px;
+        margin: 5px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    section {
+        padding: 30px 5%;
+    }
+
+    section img {
+        height: auto;
+        width: 100%;
+        max-width: 250px;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    section div h2 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    section div p {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    section div button {
+        height: 35px;
+        width: 130px;
+        font-size: 14px;
+    }
+}

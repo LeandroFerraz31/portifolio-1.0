@@ -1,0 +1,652 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.caixa-principal {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/background-1.png);
+    background-size: cover;
+    background-position:flex ;
+    background-color: #191919;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding: 25px;
+
+}
+.menu{
+    margin-left: auto;
+}
+
+.portifolio {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 500;
+
+}
+
+.portifolio span {
+    color: #f9004d;
+}
+
+.nome {
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    color: #ffffff;
+    font-size: 35px;
+}
+
+
+.nome span {
+    color: #f9004d;
+}
+
+li {
+    color: white;
+    list-style: none;
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+li:hover {
+    color: #f9004d;
+    transition: 0.5s;
+
+}
+
+h1 {
+    color: white;
+    font-size: 75px;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    padding: 60px 15%;
+    background-color: #000000;
+}
+
+section img{
+    height: 300px;
+    border: 2px solid #f9004d ;
+    border-radius: 100px/100px;
+    margin-right: 30px;
+}
+section img:hover{
+    transform: scale(1.);
+    transition: 0.5s;
+}
+section div h2 {
+    color: white;
+    font-size: 75px;
+}
+
+section div p {
+    color: #e2b9c6;
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    
+}
+
+section div button  {
+    
+    background: #f9004d;
+    height: 50px;
+    width: 180px;
+    font-size: 18px;
+    border: none;
+    border-radius: 26px;
+    cursor: pointer;
+    
+}
+
+section div button:hover {
+    background-color: black;
+    border: 3px solid #f9004d;
+    transition: 0.5s;
+}
+
+section button .whats{
+    color: white;
+    text-decoration: none;
+}
+
+.projeto {
+    background-color: #191919;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.projeto h2{
+    color: white;
+    font-size: 75px;
+    text-align: center;
+}
+
+.card {
+    background-color:#000000 ;
+    height: 365px;
+    width: 335px;
+    border-radius: 20px;
+    padding: 20px 35px;
+    text-align: center;
+}
+
+.card img{
+    height: 100px;
+}
+.image-2{
+    border-radius: 100px;
+   
+}
+
+.card img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.card h5{
+    color: white;
+    font-size: 25px;
+
+}
+
+.card p{
+    color: #502c2c;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.card a {
+    background-color: #f9004d;
+    color: white;
+    border-radius: 5px 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.card a:hover {
+    background-color: #f3f3f3;
+    color: rgb(34, 16, 16);
+    border-radius: 5px 10px;
+    border: 2px solid #f9004d;
+    transition: 0.5s;
+}
+
+.card-projetos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+footer {
+    background-color: #000;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h5 {
+    color: white;
+    font-size: 30px;
+}
+
+footer p {
+    color: white;
+    font-size: 18px;
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+.social img {
+    height: 48px;
+    border-radius: 50%;
+}
+
+.social a {
+    background-color: #f3eaed;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.social a:hover {
+    transform: scale(1.5);
+    transition: 0.5s;
+    
+    background-color: #f9004d;
+}
+
+@media only screen and (max-width: 768px) {
+    /* Estilos para tablets e dispositivos com largura de até 768px */
+    
+
+    .nome {
+        left: 0%;
+        font-size: 30px;
+    }
+
+    .portifolio {
+        font-size: 40px;
+        
+        
+    }
+    .menu{
+    
+        margin-left: 199px;
+    }
+    
+    li {
+        font-size: 18px;
+        margin: 5px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    section {
+        padding: 40px 10%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section img {
+        height: auto;
+        width: 100%;
+        max-width: 300px;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    section div {
+        text-align: center;
+    }
+
+    section div h2 {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    section div p {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    section div button {
+        height: 40px;
+        width: 150px;
+        font-size: 16px;
+    }
+
+    .projeto h2 {
+        font-size: 50px;
+    }
+
+    .card {
+        height: auto;
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 30px;
+    }
+
+    .card img {
+        height: 100px;
+    }
+    .image-2{
+        border-radius: 100px;
+        height: 150px;
+        width: 140px;
+    }
+
+    .card h5 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .card p {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .card a {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+
+    .card-projetos {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Estilos para dispositivos móveis com largura de até 480px */
+
+
+    .nome {
+        left: 2%;
+        font-size: 25px;
+    }
+
+    .portifolio {
+        font-size: 30px;
+        
+        
+    }
+    .menu{
+    
+        margin-left: 150px;
+    }
+    
+    li {
+        font-size: 18px;
+        margin: 5px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    section {
+        padding: 30px 5%;
+    }
+
+    section img {
+        height: auto;
+        width: 100%;
+        max-width: 250px;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    section div h2 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    section div p {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    section div button {
+        height: 35px;
+        width: 130px;
+        font-size: 14px;
+    }
+
+    .projeto h2 {
+        font-size: 40px;
+    }
+
+    .card {
+        height: auto;
+        width: 100%;
+        max-width: 220px;
+        margin-bottom: 20px;
+    }
+
+    .card img {
+        height: 80px;
+    }
+    .image-2{
+        border-radius: 100px;
+        height: 150px;
+        width: 140px;
+    }
+
+    .card h5 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .card p {
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+    .card a {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    footer h5 {
+        font-size: 24px;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+
+    .social img {
+        height: 36px;
+    }
+
+    .social a {
+        height: 40px;
+        width: 40px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    /* Estilos para dispositivos móveis com largura de até 480px */
+
+
+    .nome {
+        left: 2%;
+        font-size: 25px;
+    }
+
+    .portifolio {
+        font-size: 30px;
+        margin-right: auto;
+        
+        
+    }
+    .menu{
+    
+        margin-left: 100px;
+    }
+    
+    li {
+        font-size: 18px;
+        margin: 5px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    section {
+        padding: 30px 5%;
+    }
+
+    section img {
+        height: auto;
+        width: 100%;
+        max-width: 250px;
+        margin-right: 0;
+        margin-bottom: 30px;
+        justify-content:center ;
+    }
+    
+
+    section div h2 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    section div p {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    section div button {
+        height: 35px;
+        width: 130px;
+        font-size: 14px;
+    }
+
+    .projeto h2 {
+        font-size: 40px;
+    }
+
+    .card {
+        height: auto;
+        width: 100%;
+        max-width: 220px;
+        margin-bottom: 20px;
+    }
+
+    .card img {
+        height: 80px;
+    }
+    .image-2{
+        border-radius: 100px;
+        height: 150px;
+        width: 140px;
+    }
+
+    .card h5 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 320px ) {
+    /* Estilos para dispositivos móveis com largura de até 480px */
+
+
+    .nome {
+        left: 2%;
+        font-size: 20px;
+    }
+
+    .portifolio {
+        font-size: 30px;
+        margin-right: auto;
+        
+        
+    }
+    .menu{
+    display: block;
+        margin-left: 60px;
+    }
+    
+    li {
+        font-size: 18px;
+        margin: 5px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    section {
+        padding: 30px 5%;
+    }
+
+    section img {
+        height: auto;
+        width: 100%;
+        max-width: 250px;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    section div h2 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    section div p {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    section div button {
+        height: 35px;
+        width: 130px;
+        font-size: 14px;
+    }
+
+    .projeto h2 {
+        font-size: 40px;
+    }
+
+    .card {
+        height: auto;
+        width: 100%;
+        max-width: 220px;
+        margin-bottom: 20px;
+    }
+
+    .card img {
+        height: 80px;
+    }
+    
+    .image-2{
+        border-radius: 100px;
+        height: 150px;
+        width: 140px;
+    }
+    .card h5 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .card p {
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+    .card a {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    footer h5 {
+        font-size: 24px;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+
+    .social img {
+        height: 36px;
+    }
+
+    .social a {
+        height: 40px;
+        width: 40px;
+    }
+}
+

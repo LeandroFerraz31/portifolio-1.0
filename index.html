@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,13 +16,13 @@
 
   <body>
     <div class="caixa-principal">
-      <nav>
+      <nav id="nav-bar">
         <h2 class="portifolio">Portifo<span>lio</span></h2>
         <ul class="menu">
-          <li><a>Home</a></li>
-          <li><a>Sobre</a></li>
-          <li><a>Projeto</a></li>
-          <li><a>Fale comigo</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a class="active" href="projetos.html">Projetos</a></li>
+          <li><a href="contato.html">Fale comigo</a></li>
         </ul>
       </nav>
       <div class="nome">
@@ -107,7 +107,11 @@
         <a href="tel:+55519830126">
           <img src="./img/contato.png" />
         </a>
+        <a href="https://github.com/LeandroFerraz31" target="_blank">
+          <img src="./img/github.png" />
+        </a>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
